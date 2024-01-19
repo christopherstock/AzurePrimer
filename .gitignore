@@ -1,0 +1,5 @@
+scenario2-node-express-app/node_modules
+.idea
+.DS_Store
+.azure
+scenario4-terraform/.terraform
