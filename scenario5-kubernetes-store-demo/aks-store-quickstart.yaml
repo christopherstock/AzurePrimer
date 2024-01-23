@@ -89,7 +89,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: order-service
-        image: mfazureprimerconreg.azurecr.io/scenario5-kubernetes-store-demo/order-service:latest
+        image: mayflowerazureprimercontainerregistry.azurecr.io/scenario5-kubernetes-store-demo/order-service:latest
         ports:
         - containerPort: 3000
         env:
@@ -176,7 +176,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: product-service
-        image: mfazureprimerconreg.azurecr.io/scenario5-kubernetes-store-demo/product-service:latest
+        image: mayflowerazureprimercontainerregistry.azurecr.io/scenario5-kubernetes-store-demo/product-service:latest
         ports:
         - containerPort: 3002
         resources:
@@ -232,7 +232,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: store-front
-        image: mfazureprimerconreg.azurecr.io/scenario5-kubernetes-store-demo/store-front:latest
+        image: mayflowerazureprimercontainerregistry.azurecr.io/scenario5-kubernetes-store-demo/store-front:latest
         ports:
         - containerPort: 8080
           name: store-front
