@@ -1,4 +1,4 @@
 FROM nginx:latest
 
 # copy html website into nginx HTML directory inside this container
-ADD mayflower-outrun-1.0.0.tar.gz /usr/share/nginx/html
+ADD mayflower-coding-ninjas-II-v1.0.0.tar.gz /usr/share/nginx/html
