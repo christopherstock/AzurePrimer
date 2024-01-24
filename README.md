@@ -1,6 +1,5 @@
 
 Azure is Microsoft's public cloud computing platform. It provides a broad range of cloud services to develop and scale new applications or run existing applications in the public cloud.
-
 In this workshop, we'll work through five different deployment scenarios. Every scenario will deploy a different web application into the Azure cloud and thus make them accessible over a public web or IP address.
 
 ---
